@@ -1,0 +1,16 @@
+  div{
+    width: 200px;
+    height: 200px;
+    background: pink
+    display: inline-block;
+    border: 1px solid red;
+  }
+
+  .azul{
+      background: blue;
+      border: 2px solid black;
+  }
+  .rojo{
+      background: red;
+      border: 4px solid black;
+  }

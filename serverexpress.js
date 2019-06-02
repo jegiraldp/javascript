@@ -6,9 +6,11 @@ const bodyParser = require('body-parser');
 //settings
 app.set('appName','Server One');
 app.set('views',__dirname+'/views')
+app.set('public',__dirname+'/public')
 app.set('view engine','ejs');
 //app.use(bodyParser());
 app.use(bodyParser.urlencoded({extended:false}));
+app.use(express.static('public'));
 
 app.use( (req,res,next)=>{
   //console.log("url: "+req.url);

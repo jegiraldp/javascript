@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cuadrado</title>
+  </head>
+  <body>
+    <% include partials/navigation.ejs %>
+    <hr/>
+    <form action="/calcuadrado" method="post">
+      Digite número:<input type="text" name="txtNum" value="" />
+      <input type="submit" name="" value="Calcular">
+    </form>
+    <hr/>
+    <div id="escondido">
+      <% if (cuadrado) { %>
+        <p>El cuadrado de <%= numero %> es: <%= cuadrado %></p>
+      <% } %>
+    </div>
+  </body>
+</html>

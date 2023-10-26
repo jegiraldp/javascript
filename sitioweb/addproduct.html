@@ -38,7 +38,9 @@
       <div class="center">
         <h2>Add product</h2>
         <form>
-            <input id="txtCode" type="text" placeholder="Enter Code"><br>
+            <input id="txtCode" type="text" placeholder="Enter Code">
+            <br><div id="escodidoCode" class="error"></div>
+
             <input type="text" id="txtName" placeholder="Enter Name"><br>
             <select id="txtCategory">
                 <option value="1">Aseo</option>
@@ -46,7 +48,7 @@
                 <option value="3">Frutas</option>
                 <option value="4">Ropa</option>
             </select><br>
-            <button>Add product</button>
+        <input type="button" onclick="validar()" value="Add product">
 
         </form>
       </div>
@@ -55,5 +57,6 @@
         Colombia - 2024
       </div>
     </div>
+    <script src="./scripts/formulario.js"></script>
   </body>
 </html>

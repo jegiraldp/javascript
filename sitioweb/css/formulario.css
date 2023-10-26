@@ -15,4 +15,7 @@ input:focus{
     border-color: 1px solid  blue ;
 }
 
-  
+div.error{
+    font-weight: bold;
+    color:red
+}

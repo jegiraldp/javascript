@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+
+}
+
+
+.header{
+    text-align: center;
+    padding: 10px;
+}
+
+.left{
+    padding-top: 10px;
+    padding-right: 30px;
+    float: left;
+    width: auto;
+    height: 400px;
+    background-color: white;   
+    
+}
+
+#imgCentro{
+    width: 150px;
+    height: 150px;
+}
+
+
+.center{
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+ 
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    font-size: 21px;
+}
+
+li:hover{
+    background-color: bisque;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}

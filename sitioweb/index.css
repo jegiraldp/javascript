@@ -1,0 +1,17 @@
+body{
+    background: #ffffc7;
+}
+
+li{
+    color:blueviolet;
+    font-size: 18px;
+    list-style: none;
+    
+}
+li:hover{
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+}

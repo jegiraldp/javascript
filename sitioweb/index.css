@@ -2,16 +2,21 @@ body{
     background: #ffffc7;
 }
 
-li{
+li,p, a{
     color:blueviolet;
     font-size: 18px;
     list-style: none;
     
 }
-li:hover{
+li:hover, a:hover{
     font-size: 19px;
+    font-style: italic;
 }
 
 a{
     text-decoration: none;
+}
+
+h3{
+    text-align: center
 }

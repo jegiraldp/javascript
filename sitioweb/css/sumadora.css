@@ -27,10 +27,16 @@ h3{
     text-align: center
 }
 
-#elDiv{
+#elDiv, #escondido{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+}
+
+#escondido{
+    color:red;
+    font-size: 24px;
+    font-weight: bold;
 }

@@ -11,4 +11,9 @@ function calcular() {
 
     document.getElementById("escondido").innerHTML = "La suma es " + suma;
   }
+  calcu("Jorge");
 }
+const calcu = (a)=>{
+    alert("hi "+a)
+}
+

@@ -1,0 +1,36 @@
+body{
+    background: #ffffc7;
+}
+
+p{
+   
+    font-size: 18px;
+   
+}
+
+li, a{
+    color:blueviolet;
+    font-size: 18px;
+    list-style: none;
+    
+}
+li:hover, a:hover{
+    font-size: 19px;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    text-align: center
+}
+
+#elDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

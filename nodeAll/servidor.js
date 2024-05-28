@@ -1,9 +1,12 @@
 import express from "express";
 import { sumar } from "./src/suma.js";
 import bodyParser from "body-parser";
+import path from "path"
+
 
 //init
 const app = express();
+
 // middleware
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -12,6 +15,10 @@ app.use(bodyParser.json());
 //rutas
 app.get("/", (req, res) => {
   res.send("Hi, i am a server on express.. :) ");
+});
+
+app.get("/calculator", (req, res) => {
+  res.sendFile("public/views/calculator.html");
 });
 app.get("/about", (req, res) => {
   res.send("About this project");

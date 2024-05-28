@@ -1,0 +1,10 @@
+body{
+    background: burlywood;
+}
+
+div#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -11,7 +11,7 @@ function calcular() {
 
     document.getElementById("escondido").innerHTML = "La suma es " + suma;
   }
-  calcu("Jorge");
+ // calcu("Jorge");
 }
 const calcu = (a)=>{
     alert("hi "+a)

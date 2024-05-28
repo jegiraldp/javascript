@@ -1,0 +1,22 @@
+body{
+    background:  #ffffc7;
+}
+
+div#respuesta{
+    color:red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div#cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+   
+        text-align: center;
+      
+}

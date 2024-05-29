@@ -1,0 +1,3 @@
+function contacto(){
+    alert("hola");
+}

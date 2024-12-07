@@ -1,3 +1,0 @@
-function contacto(){
-    alert("hola");
-}
